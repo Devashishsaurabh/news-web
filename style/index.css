@@ -1,0 +1,44 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+#search_input{
+    width:80%;
+    height:40px;
+    border-radius: 10px;
+}
+#sidebar{
+    width:250px;
+    height:100%;
+    position: fixed;
+    background-color: rgb(252, 252, 241);
+    height:full;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin:auto;
+    width:80%;
+    height:30px;
+    text-transform: capitalize;
+    padding-top: 5px;
+    margin-bottom: 25px;
+    background-color: teal;
+}
+h3:hover{
+    color:greenyellow;
+    cursor: pointer;
+}
+.news{
+    border:1px solid red;
+    margin-left:255px;
+    margin-bottom: 10px;;
+}
+.img{
+    width:150px;
+    height:150px;
+    display: inline-block;
+}
